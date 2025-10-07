@@ -1,0 +1,20 @@
+function calcularMediaAluno($n1, $n2, $n3) {
+    return ($n1 + $n2 + $n3) / 3;
+}
+
+function verificarSituacao($media) {
+    if ($media >= 7) {
+        return "Aprovado";
+    } else {
+        return "Reprovado";
+    }
+}
+
+// PRIMEIRO ALUNO !
+$media1 = calcularMediaAluno(8, 7, 9);
+echo "Aluno 1 - Média: $media1 - Situação: " . verificarSituacao($media1) . "<br>";
+
+// SEGUNDO ALUNO !!!
+$media2 = calcularMediaAluno(5, 6, 4);
+echo "Aluno 2 - Média: $media2 - Situação: " . verificarSituacao($media2) . "<br>";
+?>

@@ -1,0 +1,9 @@
+<h2>Lista de Alunos</h2>
+<?php
+$alunos = ["Ana", "Bruno", "Carlos", "Diana", "Eduardo"];
+
+foreach ($alunos as $aluno) {
+    echo $aluno . "<br>";
+}
+?>
+<hr>

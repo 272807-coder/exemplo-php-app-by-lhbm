@@ -1,0 +1,25 @@
+<h2>Notas dos Alunos</h2>
+<?php
+$notas = [
+    "Ana" => 8.5,
+    "Bruno" => 6.0,
+    "Carlos" => 9.0,
+    "Diana" => 5.5,
+    "Eduardo" => 7.0
+];
+
+$soma = 0;
+$totalAlunos = count($notas);
+
+foreach ($notas as $nome => $nota) {
+    $soma += $nota;
+    if ($nota >= 7) {
+        echo "$nome – Nota: $nota – <span style='color: blue;'>APROVADO</span><br>";
+    } else {
+        echo "$nome – Nota: $nota – <span style='color: red;'>REPROVADO</span><br>";
+    }
+}
+
+$media = $soma / $totalAlunos;
+echo "<br><strong>Média da turma: " . number_format($media, 2, ',', '.') . "</strong>";
+?>

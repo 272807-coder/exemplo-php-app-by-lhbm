@@ -1,0 +1,8 @@
+function calcularMedia($n1, $n2, $n3) {
+    return ($n1 + $n2 + $n3) / 3;
+}
+
+$mediaAluno = calcularMedia(7, 8.5, 9);
+echo "A média do aluno é: $mediaAluno<br>";
+
+echo "<hr>";

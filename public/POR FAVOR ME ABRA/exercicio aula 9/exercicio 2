@@ -1,0 +1,9 @@
+function saudacao($nome) {
+    echo "Olá, $nome!<br>";
+}
+
+saudacao("João");
+saudacao("Maria");
+saudacao("Carlos");
+
+echo "<hr>";

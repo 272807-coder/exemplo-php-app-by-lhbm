@@ -1,0 +1,6 @@
+function soma($a, $b) {
+    echo "Soma: " . ($a + $b) . "<br>";
+}
+
+soma(3, 5);
+soma(10, 20);

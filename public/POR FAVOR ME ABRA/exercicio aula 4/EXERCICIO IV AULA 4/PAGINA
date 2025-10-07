@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Página</title>
+</head>
+<body>
+    <?php include "cabecalho.php"; ?>
+
+    <main>
+        <p>Conteúdo principal da página</p>
+    </main>
+
+    <?php include "rodape.php"; ?>
+</body>
+</html>

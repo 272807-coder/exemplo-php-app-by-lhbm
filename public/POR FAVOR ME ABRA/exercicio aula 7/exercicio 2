@@ -1,0 +1,12 @@
+<h2>Números Pares de 1 a 20</h2>
+<?php
+$contador = 1;
+
+while ($contador <= 20) {
+    if ($contador % 2 == 0) {
+        echo $contador . "<br>";
+    }
+    $contador++;
+}
+?>
+<hr>

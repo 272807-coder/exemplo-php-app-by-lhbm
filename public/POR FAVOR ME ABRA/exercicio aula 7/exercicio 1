@@ -1,0 +1,21 @@
+<?php
+// Inicialização da variável
+$numeroTabuada = $_POST['numero'] ?? null;
+?>
+
+<h2>Tabuada Personalizada</h2>
+<form method="POST" action="exercicios.php">
+    <label for="numero">Digite um número:</label>
+    <input type="number" name="numero" id="numero" required>
+    <input type="submit" value="Gerar Tabuada">
+</form>
+
+<?php
+if ($numeroTabuada !== null) {
+    echo "<h3>Tabuada do número $numeroTabuada:</h3>";
+    for ($i = 1; $i <= 10; $i++) {
+        echo "$numeroTabuada x $i = " . ($numeroTabuada * $i) . "<br>";
+    }
+}
+?>
+<hr>

@@ -1,0 +1,10 @@
+$curso = "PHP";
+
+function mostrarCurso() {
+    global $curso; // necessário para acessar variável global
+    echo "Curso: $curso<br>";
+}
+
+mostrarCurso();
+
+echo "<hr>";

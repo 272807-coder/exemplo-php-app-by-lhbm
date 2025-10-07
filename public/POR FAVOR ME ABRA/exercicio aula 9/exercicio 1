@@ -1,0 +1,9 @@
+function meuNome() {
+    echo "Seu Nome Completo Aqui<br>";
+}
+
+meuNome();
+meuNome();
+meuNome();
+
+echo "<hr>";

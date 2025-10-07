@@ -1,0 +1,8 @@
+function somaRetorno($a, $b) {
+    return $a + $b;
+}
+
+$resultado = somaRetorno(7, 8);
+echo "Soma com retorno: $resultado<br>";
+
+echo "<hr>";
